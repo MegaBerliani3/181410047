@@ -1,0 +1,29 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+	int data[100];
+	int n,i;
+	
+	cout<<"PROGRAM INPUT DATA"<<endl;
+	cout<<"Masukan Jumlah Data:";
+	cin>>n;
+	cout<<endl;
+	
+	for(i=1;i<=n;i++)
+	{
+		cout<<"Masukan data ke"<<i<<" : ";
+		cin>>data[i];
+	}
+	
+	cout<<"Data yang di Masukan: ";
+	cout<<endl;
+	
+	for(i=1; i<=n; i++)
+	{
+		cout<<""<<data[i]<<endl;
+	}
+	return 0;
+}
